@@ -1,6 +1,4 @@
 from prototree.prototree import ProtoTree
-from util.data import get_dataloaders
-from util.visualize_prediction import gen_pred_vis
 import argparse
 import torch
 import torchvision.transforms as transforms
@@ -8,6 +6,9 @@ from PIL import Image
 from shutil import copy
 from copy import deepcopy
 import os
+from util import *
+from util.data import *
+from visualise import *
 
 def get_local_expl_args() -> argparse.Namespace:
 
