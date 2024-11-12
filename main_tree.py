@@ -37,7 +37,7 @@ def get_args() -> argparse.Namespace:
                         help='The tree is initialized as a complete tree of this depth')
     parser.add_argument('--epochs',
                         type=int,
-                        default=100,
+                        default=50,
                         help='The number of epochs the tree should be trained')
     parser.add_argument('--optimizer',
                         type=str,
@@ -45,7 +45,7 @@ def get_args() -> argparse.Namespace:
                         help='The optimizer that should be used when training the tree')
     parser.add_argument('--lr',
                         type=float,
-                        default=0.001, 
+                        default=0.002, 
                         help='The optimizer learning rate for training the prototypes')
     parser.add_argument('--lr_block',
                         type=float,
@@ -111,10 +111,7 @@ def get_args() -> argparse.Namespace:
                         type=str,
                         default='upsampling_results',
                         help='Directoy for saving the prototypes, patches and heatmaps')
-    parser.add_argument('--upsample_threshold',
-                        type=float,
-                        default=0.98,
-                        help='Threshold (between 0 and 1) for visualizing the nearest patch of an image after upsampling. The higher this threshold, the larger the patches.')
+    
     parser.add_argument('--disable_pretrained',
                         action='store_true',
                         help='When set, the backbone network is initialized with random weights instead of being pretrained on another dataset). When not set, resnet50_inat is initalized with weights from iNaturalist2017. Other networks are initialized with weights from ImageNet'
@@ -122,14 +119,6 @@ def get_args() -> argparse.Namespace:
     parser.add_argument('--disable_derivative_free_leaf_optim',
                         action='store_true',
                         help='Flag that optimizes the leafs with gradient descent when set instead of using the derivative-free algorithm'
-                        )
-    parser.add_argument('--kontschieder_train',
-                        action='store_true',
-                        help='Flag that first trains the leaves for one epoch, and then trains the rest of ProtoTree (instead of interleaving leaf and other updates). Computationally more expensive.'
-                        )
-    parser.add_argument('--kontschieder_normalization',
-                        action='store_true',
-                        help='Flag that disables softmax but uses a normalization factor to convert the leaf parameters to a probabilitiy distribution, as done by Kontschieder et al. (2015). Will iterate over the data 10 times to update the leaves. Computationally more expensive.'
                         )
     parser.add_argument('--log_probabilities',
                         action='store_true',
@@ -139,11 +128,12 @@ def get_args() -> argparse.Namespace:
                         type=float,
                         default=0.01,
                         help='An internal node will be pruned when the maximum class probability in the distributions of all leaves below this node are lower than this threshold.')
-    parser.add_argument('--nr_trees_ensemble',
-                        type=int,
-                        default=5,
-                        help='Number of ProtoTrees to train and (optionally) use in an ensemble. Used in main_ensemble.py') 
+
     args = parser.parse_args()
+
+    args.kontschieder_train = True
+    args.kontschieder_normalization = True
+    args.upsample_threshold=0.98
 
     if args.milestones != '':
         milestones_list = args.milestones.split(',')
