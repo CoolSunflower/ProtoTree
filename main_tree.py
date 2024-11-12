@@ -143,10 +143,19 @@ def get_args() -> argparse.Namespace:
         milestones_list = []
     args.milestones = milestones_list
 
+    if args.dataset == 'CUB-200-2011':
+        with open('./prototree/dataset/cub.py') as file:
+            exec(file.read())
+    elif args.dataset == 'CARS':
+        with open('./prototree/dataset/cars.py') as file:
+            exec(file.read())
+    else:
+        print("Only avalaible dataset options are CUB-200-2011 and CARS. Follow the data download steps mentioned in README.")
+
     return args
 
 def run_tree(args=None):
-    args = args or get_args
+    args = args or get_args()
     # Create a logger
     log = Log(args.log_dir)
     print("Log dir: ", args.log_dir, flush=True)
