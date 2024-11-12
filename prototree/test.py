@@ -8,8 +8,8 @@ import torch.optim
 from torch.utils.data import DataLoader
 
 from prototree.prototree import ProtoTree
+# from util.log import Log
 from util.log import Log
-
 
 @torch.no_grad()
 def eval(tree: ProtoTree,
