@@ -8,10 +8,10 @@ from PIL import Image
 import torch
 import math
 from prototree.prototree import ProtoTree
-from prototree.branch import Branch
-from prototree.leaf import Leaf
-from prototree.node import Node
-
+# from prototree.branch import Branch
+# from prototree.leaf import Leaf
+# from prototree.node import Node
+from structure import *
 
 def gen_vis(tree: ProtoTree, folder_name: str, args: argparse.Namespace, classes:tuple):
     destination_folder=os.path.join(args.log_dir,folder_name)

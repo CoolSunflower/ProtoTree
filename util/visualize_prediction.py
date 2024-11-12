@@ -15,9 +15,10 @@ import torchvision
 from torchvision.utils import save_image
 
 from prototree.prototree import ProtoTree
-from prototree.branch import Branch
-from prototree.leaf import Leaf
-from prototree.node import Node
+from structure import *
+# from prototree.branch import Branch
+# from prototree.leaf import Leaf
+# from prototree.node import Node
 
 def upsample_local(tree: ProtoTree,
                  sample: torch.Tensor,
