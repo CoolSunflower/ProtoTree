@@ -1,7 +1,8 @@
 from prototree.prototree import ProtoTree
-from prototree.branch import Branch
-from prototree.leaf import Leaf
-from prototree.node import Node
+# from prototree.branch import Branch
+# from prototree.leaf import Leaf
+# from prototree.node import Node
+from structure import *
 from util.log import Log
 from copy import deepcopy
 import torch
