@@ -1,0 +1,917 @@
+Device used: cuda:0
+Max depth 9, so 511 internal nodes and 512 leaves
+Image input shape: torch.Size([3, 224, 224])
+Features output shape (without 1x1 conv layer): torch.Size([64, 2048, 7, 7])
+Convolutional output shape (with 1x1 conv layer): torch.Size([64, 256, 7, 7])
+Prototypes shape: torch.Size([511, 256, 1, 1])
+
+Epoch 1
+
+Network frozen
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 53
+Classes without leaf: 105
+
+Epoch 1 - Test accuracy with distributed routing: 0.022609596133931653
+
+Epoch 2
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 170
+Classes without leaf: 33
+Fraction changed pairs w.r.t previous epoch: 0.841796875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.7352941176470589
+
+Epoch 2 - Test accuracy with distributed routing: 0.045219192267863306
+
+Epoch 3
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 221
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.70703125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.334841628959276
+
+Epoch 3 - Test accuracy with distributed routing: 0.09302726958923024
+
+Epoch 4
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 216
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.5859375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.023148148148148147
+
+Epoch 4 - Test accuracy with distributed routing: 0.13237832240248534
+
+Epoch 5
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 215
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.32421875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004651162790697674
+
+Epoch 5 - Test accuracy with distributed routing: 0.17552640662754573
+
+Epoch 6
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 216
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.392578125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004629629629629629
+
+Epoch 6 - Test accuracy with distributed routing: 0.19036934760096652
+
+Epoch 7
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 215
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.302734375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 7 - Test accuracy with distributed routing: 0.24732481877804627
+
+Epoch 8
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 213
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.40625
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004694835680751174
+
+Epoch 8 - Test accuracy with distributed routing: 0.22747670003451848
+
+Epoch 9
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 213
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.421875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.014084507042253521
+
+Epoch 9 - Test accuracy with distributed routing: 0.28460476354849845
+
+Epoch 10
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.36328125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004761904761904762
+
+Epoch 10 - Test accuracy with distributed routing: 0.29133586468760786
+
+Epoch 11
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.412109375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004761904761904762
+
+Epoch 11 - Test accuracy with distributed routing: 0.32947877114256124
+
+Epoch 12
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.494140625
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 12 - Test accuracy with distributed routing: 0.3369002416292717
+
+Epoch 13
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.490234375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 13 - Test accuracy with distributed routing: 0.3536416983085951
+
+Epoch 14
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 211
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.451171875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004739336492890996
+
+Epoch 14 - Test accuracy with distributed routing: 0.3615809458060062
+
+Epoch 15
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 211
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.4453125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004739336492890996
+
+Epoch 15 - Test accuracy with distributed routing: 0.38401794960303764
+
+Epoch 16
+
+Network unfrozen
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 211
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.392578125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004739336492890996
+
+Epoch 16 - Test accuracy with distributed routing: 0.48118743527787367
+
+Epoch 17
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.240234375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.004761904761904762
+
+Epoch 17 - Test accuracy with distributed routing: 0.5302036589575423
+
+Epoch 18
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.232421875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 18 - Test accuracy with distributed routing: 0.5712806351397998
+
+Epoch 19
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 212
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.330078125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 19 - Test accuracy with distributed routing: 0.6104590956161546
+
+Epoch 20
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 212
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.38671875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 20 - Test accuracy with distributed routing: 0.6373835001725924
+
+Epoch 21
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 211
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.3828125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 21 - Test accuracy with distributed routing: 0.6580945806006213
+
+Epoch 22
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 211
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.44921875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 22 - Test accuracy with distributed routing: 0.66430790472903
+
+Epoch 23
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 211
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.2421875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 23 - Test accuracy with distributed routing: 0.6903693476009665
+
+Epoch 24
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.2578125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 24 - Test accuracy with distributed routing: 0.7076285812909907
+
+Epoch 25
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.271484375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 25 - Test accuracy with distributed routing: 0.7254055919917156
+
+Epoch 26
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.28515625
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 26 - Test accuracy with distributed routing: 0.7369692785640317
+
+Epoch 27
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.224609375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 27 - Test accuracy with distributed routing: 0.7386952019330342
+
+Epoch 28
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.251953125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 28 - Test accuracy with distributed routing: 0.7531929582326544
+
+Epoch 29
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.197265625
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 29 - Test accuracy with distributed routing: 0.7597514670348636
+
+Epoch 30
+Learning rate net: 2e-05
+Learning rate block: 0.002
+Learning rate net 1x1 conv: 0.002
+Learning rate prototypes: 0.002
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.17578125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 30 - Test accuracy with distributed routing: 0.749223334483949
+
+Epoch 31
+Learning rate net: 1e-05
+Learning rate block: 0.001
+Learning rate net 1x1 conv: 0.001
+Learning rate prototypes: 0.001
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.177734375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 31 - Test accuracy with distributed routing: 0.7651018294787711
+
+Epoch 32
+Learning rate net: 1e-05
+Learning rate block: 0.001
+Learning rate net 1x1 conv: 0.001
+Learning rate prototypes: 0.001
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.37109375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 32 - Test accuracy with distributed routing: 0.774249223334484
+
+Epoch 33
+Learning rate net: 1e-05
+Learning rate block: 0.001
+Learning rate net 1x1 conv: 0.001
+Learning rate prototypes: 0.001
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.3515625
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 33 - Test accuracy with distributed routing: 0.7759751467034863
+
+Epoch 34
+Learning rate net: 1e-05
+Learning rate block: 0.001
+Learning rate net 1x1 conv: 0.001
+Learning rate prototypes: 0.001
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.177734375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 34 - Test accuracy with distributed routing: 0.7654470141525717
+
+Epoch 35
+Learning rate net: 1e-05
+Learning rate block: 0.001
+Learning rate net 1x1 conv: 0.001
+Learning rate prototypes: 0.001
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.142578125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 35 - Test accuracy with distributed routing: 0.7832240248532966
+
+Epoch 36
+Learning rate net: 5e-06
+Learning rate block: 0.0005
+Learning rate net 1x1 conv: 0.0005
+Learning rate prototypes: 0.0005
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.13671875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 36 - Test accuracy with distributed routing: 0.7830514325163963
+
+Epoch 37
+Learning rate net: 5e-06
+Learning rate block: 0.0005
+Learning rate net 1x1 conv: 0.0005
+Learning rate prototypes: 0.0005
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.09765625
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 37 - Test accuracy with distributed routing: 0.7830514325163963
+
+Epoch 38
+Learning rate net: 5e-06
+Learning rate block: 0.0005
+Learning rate net 1x1 conv: 0.0005
+Learning rate prototypes: 0.0005
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.1796875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 38 - Test accuracy with distributed routing: 0.7839143942008975
+
+Epoch 39
+Learning rate net: 5e-06
+Learning rate block: 0.0005
+Learning rate net 1x1 conv: 0.0005
+Learning rate prototypes: 0.0005
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.18359375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 39 - Test accuracy with distributed routing: 0.783569209527097
+
+Epoch 40
+Learning rate net: 5e-06
+Learning rate block: 0.0005
+Learning rate net 1x1 conv: 0.0005
+Learning rate prototypes: 0.0005
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.08203125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 40 - Test accuracy with distributed routing: 0.7833966171901967
+
+Epoch 41
+Learning rate net: 2.5e-06
+Learning rate block: 0.00025
+Learning rate net 1x1 conv: 0.00025
+Learning rate prototypes: 0.00025
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.05078125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 41 - Test accuracy with distributed routing: 0.7852951328960994
+
+Epoch 42
+Learning rate net: 2.5e-06
+Learning rate block: 0.00025
+Learning rate net 1x1 conv: 0.00025
+Learning rate prototypes: 0.00025
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.052734375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 42 - Test accuracy with distributed routing: 0.784259578874698
+
+Epoch 43
+Learning rate net: 2.5e-06
+Learning rate block: 0.00025
+Learning rate net 1x1 conv: 0.00025
+Learning rate prototypes: 0.00025
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.03515625
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 43 - Test accuracy with distributed routing: 0.783569209527097
+
+Epoch 44
+Learning rate net: 2.5e-06
+Learning rate block: 0.00025
+Learning rate net 1x1 conv: 0.00025
+Learning rate prototypes: 0.00025
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.06640625
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 44 - Test accuracy with distributed routing: 0.7840869865377977
+
+Epoch 45
+Learning rate net: 2.5e-06
+Learning rate block: 0.00025
+Learning rate net 1x1 conv: 0.00025
+Learning rate prototypes: 0.00025
+
+Leafs with max > 0.01: 210
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.12109375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 45 - Test accuracy with distributed routing: 0.7858129099068001
+
+Epoch 46
+Learning rate net: 1.25e-06
+Learning rate block: 0.000125
+Learning rate net 1x1 conv: 0.000125
+Learning rate prototypes: 0.000125
+
+Leafs with max > 0.01: 209
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.08984375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 46 - Test accuracy with distributed routing: 0.7863306869175009
+
+Epoch 47
+Learning rate net: 1.25e-06
+Learning rate block: 0.000125
+Learning rate net 1x1 conv: 0.000125
+Learning rate prototypes: 0.000125
+
+Leafs with max > 0.01: 209
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.037109375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 47 - Test accuracy with distributed routing: 0.7858129099068001
+
+Epoch 48
+Learning rate net: 1.25e-06
+Learning rate block: 0.000125
+Learning rate net 1x1 conv: 0.000125
+Learning rate prototypes: 0.000125
+
+Leafs with max > 0.01: 209
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.189453125
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 48 - Test accuracy with distributed routing: 0.7851225405591992
+
+Epoch 49
+Learning rate net: 1.25e-06
+Learning rate block: 0.000125
+Learning rate net 1x1 conv: 0.000125
+Learning rate prototypes: 0.000125
+
+Leafs with max > 0.01: 209
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.185546875
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 49 - Test accuracy with distributed routing: 0.7825336555056955
+
+Epoch 50
+Learning rate net: 1.25e-06
+Learning rate block: 0.000125
+Learning rate net 1x1 conv: 0.000125
+Learning rate prototypes: 0.000125
+
+Leafs with max > 0.01: 209
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.068359375
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+
+Epoch 50 - Test accuracy with distributed routing: 0.782878840179496
+Training Finished. Best training accuracy was 0.949293710021322, best test accuracy was 0.7863306869175009
+
+
+Leafs with max > 0.01: 209
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.0
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+Max values in softmax leaf distributions: 
+[0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.004999999888241291, 0.005000000353902578, 0.005000000353902578, 0.005000000353902578, 0.005000000353902578, 0.005000000819563866, 0.005000000819563866, 0.005000000819563866, 0.005000000819563866, 0.005000000819563866, 0.005000000819563866, 0.00500000175088644, 0.00500000175088644, 0.005000002216547728, 0.005000002216547728, 0.005000002216547728, 0.005000002216547728, 0.005000002216547728, 0.005000002216547728, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.005000003147870302, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.0050000036135315895, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000004544854164, 0.005000005476176739, 0.005000005476176739, 0.005000005476176739, 0.005000005476176739, 0.005000005476176739, 0.005000005476176739, 0.005000005476176739, 0.005000005476176739, 0.005000006873160601, 0.005000006873160601, 0.005000006873160601, 0.005000006873160601, 0.005000006873160601, 0.005000006873160601, 0.005000006873160601, 0.005000006873160601, 0.005000007804483175, 0.005000007804483175, 0.005000007804483175, 0.005000007804483175, 0.005000007804483175, 0.005000007804483175, 0.005000008270144463, 0.005000008270144463, 0.005000009201467037, 0.005000009201467037, 0.005000010132789612, 0.005000010598450899, 0.005000011995434761, 0.005000013392418623, 0.005000014323741198, 0.005000015255063772, 0.005000018514692783, 0.005000025033950806, 0.005000026896595955, 0.005000028759241104, 0.005000029690563679, 0.005000031087547541, 0.005000031087547541, 0.005000037606805563, 0.005000040400773287, 0.005000049248337746, 0.005000049713999033, 0.0050000520423054695, 0.005000057630240917, 0.00500006228685379, 0.005000063218176365, 0.0050000897608697414, 0.005000090226531029, 0.005000100936740637, 0.0050001018680632114, 0.005000113043934107, 0.005000134464353323, 0.005000143311917782, 0.005000155419111252, 0.005000235978513956, 0.005000679288059473, 0.0050010099075734615, 0.005003489088267088, 0.005004735663533211, 0.005007266066968441, 0.005031747743487358, 0.005061332602053881, 0.42514851689338684, 0.4271664619445801, 0.42717620730400085, 0.42725175619125366, 0.8609499335289001, 0.9910305738449097, 0.9910682439804077, 0.9999994039535522, 0.9999996423721313, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+Pruning...
+Before pruning: 511 branches and 512 leaves
+After pruning: 208 branches and 209 leaves
+Fraction of prototypes pruned: 0.5929549902152642
+
+
+Leafs with max > 0.01: 209
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.0
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+Max values in softmax leaf distributions: 
+[0.42514851689338684, 0.4271664619445801, 0.42717620730400085, 0.42725175619125366, 0.8609499335289001, 0.9910305738449097, 0.9910682439804077, 0.9999994039535522, 0.9999996423721313, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+Epoch pruned - Test accuracy with distributed routing: 0.782878840179496
+
+Projecting prototypes to nearest training patch (with class restrictions)...
+Node 405 has nearest distance 1.0000000116860974e-07
+Node 322 has nearest distance 0.01171875
+Node 354 has nearest distance 0.00390625
+Node 556 has nearest distance 0.009568319655954838
+Node 834 has nearest distance 1.0000000116860974e-07
+Node 517 has nearest distance 0.06513020396232605
+Node 525 has nearest distance 1.0000000116860974e-07
+Node 565 has nearest distance 0.027203883975744247
+Node 557 has nearest distance 0.02455040067434311
+Node 529 has nearest distance 0.011048543266952038
+Node 388 has nearest distance 0.01171875
+Node 8 has nearest distance 0.006765823345631361
+Node 396 has nearest distance 0.009568319655954838
+Node 564 has nearest distance 0.006765823345631361
+Node 7 has nearest distance 0.01746928133070469
+Node 549 has nearest distance 1.0000000116860974e-07
+Node 11 has nearest distance 1.0000000116860974e-07
+Node 526 has nearest distance 0.005524271633476019
+Node 553 has nearest distance 0.01171875
+Node 15 has nearest distance 1.0000000116860974e-07
+Node 518 has nearest distance 0.005524271633476019
+Node 522 has nearest distance 1.0000000116860974e-07
+Node 18 has nearest distance 1.0000000116860974e-07
+Node 833 has nearest distance 0.005524271633476019
+Node 769 has nearest distance 1.0000000116860974e-07
+Node 515 has nearest distance 1.0000000116860974e-07
+Node 547 has nearest distance 1.0000000116860974e-07
+Node 901 has nearest distance 0.05327414721250534
+Node 6 has nearest distance 0.00390625
+Node 550 has nearest distance 1.0000000116860974e-07
+Node 14 has nearest distance 1.0000000116860974e-07
+Node 582 has nearest distance 1.0000000116860974e-07
+Node 23 has nearest distance 0.005524271633476019
+Node 519 has nearest distance 0.005524271633476019
+Node 420 has nearest distance 0.006765823345631361
+Node 585 has nearest distance 1.0000000116860974e-07
+Node 516 has nearest distance 1.0000000116860974e-07
+Node 899 has nearest distance 1.0000000116860974e-07
+Node 1 has nearest distance 1.0000000116860974e-07
+Node 355 has nearest distance 0.017026949673891068
+Node 581 has nearest distance 1.0000000116860974e-07
+Node 532 has nearest distance 1.0000000116860974e-07
+Node 22 has nearest distance 0.005524271633476019
+Node 257 has nearest distance 1.0000000116860974e-07
+Node 385 has nearest distance 1.0000000116860974e-07
+Node 589 has nearest distance 1.0000000116860974e-07
+Node 540 has nearest distance 0.009568319655954838
+Node 449 has nearest distance 1.0000000116860974e-07
+Node 588 has nearest distance 1.0000000116860974e-07
+Node 898 has nearest distance 1.0000000116860974e-07
+Node 580 has nearest distance 1.0000000116860974e-07
+Node 5 has nearest distance 0.00390625
+Node 403 has nearest distance 0.01461584959179163
+Node 21 has nearest distance 0.03221176192164421
+Node 597 has nearest distance 0.009568319655954838
+Node 541 has nearest distance 0.04059493914246559
+Node 356 has nearest distance 1.0000000116860974e-07
+Node 39 has nearest distance 0.02174907922744751
+Node 596 has nearest distance 0.00390625
+Node 397 has nearest distance 0.009568319655954838
+Node 533 has nearest distance 1.0000000116860974e-07
+Node 38 has nearest distance 0.005524271633476019
+Node 537 has nearest distance 0.0398360900580883
+Node 897 has nearest distance 1.0000000116860974e-07
+Node 595 has nearest distance 0.01657281443476677
+Node 323 has nearest distance 0.00390625
+Node 339 has nearest distance 0.006765823345631361
+Node 579 has nearest distance 0.00390625
+Node 534 has nearest distance 1.0000000116860974e-07
+Node 37 has nearest distance 1.0000000116860974e-07
+Node 613 has nearest distance 0.009568319655954838
+Node 54 has nearest distance 1.0000000116860974e-07
+Node 612 has nearest distance 0.015128841623663902
+Node 53 has nearest distance 1.0000000116860974e-07
+Node 340 has nearest distance 0.011048543266952038
+Node 611 has nearest distance 0.00390625
+Node 52 has nearest distance 1.0000000116860974e-07
+Node 341 has nearest distance 0.021035799756646156
+Node 4 has nearest distance 0.005524271633476019
+Node 36 has nearest distance 1.0000000116860974e-07
+Node 71 has nearest distance 1.0000000116860974e-07
+Node 421 has nearest distance 0.0234375
+Node 261 has nearest distance 0.005524271633476019
+Node 131 has nearest distance 1.0000000116860974e-07
+Node 324 has nearest distance 0.01991804502904415
+Node 269 has nearest distance 1.0000000116860974e-07
+Node 70 has nearest distance 0.005524271633476019
+Node 179 has nearest distance 0.015128841623663902
+Node 896 has nearest distance 0.006765823345631361
+Node 768 has nearest distance 1.0000000116860974e-07
+Node 78 has nearest distance 0.0078125
+Node 273 has nearest distance 0.015625
+Node 512 has nearest distance 1.0000000116860974e-07
+Node 0 has nearest distance 1.0000000116860974e-07
+Node 450 has nearest distance 0.018733717501163483
+Node 610 has nearest distance 0.011048543266952038
+Node 77 has nearest distance 0.034053899347782135
+Node 514 has nearest distance 1.0000000116860974e-07
+Node 578 has nearest distance 0.014084184542298317
+Node 270 has nearest distance 1.0000000116860974e-07
+Node 69 has nearest distance 0.01461584959179163
+Node 86 has nearest distance 1.0000000116860974e-07
+Node 325 has nearest distance 0.008734640665352345
+Node 329 has nearest distance 0.018321936950087547
+Node 646 has nearest distance 1.0000000116860974e-07
+Node 649 has nearest distance 0.011048543266952038
+Node 85 has nearest distance 1.0000000116860974e-07
+Node 262 has nearest distance 1.0000000116860974e-07
+Node 326 has nearest distance 0.006765823345631361
+Node 641 has nearest distance 1.0000000116860974e-07
+Node 645 has nearest distance 0.01171875
+Node 705 has nearest distance 0.011048543266952038
+Node 266 has nearest distance 1.0000000116860974e-07
+Node 389 has nearest distance 0.01171875
+Node 513 has nearest distance 1.0000000116860974e-07
+Node 653 has nearest distance 1.0000000116860974e-07
+Node 172 has nearest distance 0.00390625
+Node 777 has nearest distance 0.015625
+Node 173 has nearest distance 0.011048543266952038
+Node 774 has nearest distance 0.005524271633476019
+Node 652 has nearest distance 0.005524271633476019
+Node 259 has nearest distance 0.00390625
+Node 84 has nearest distance 0.005524271633476019
+Node 263 has nearest distance 0.00390625
+Node 387 has nearest distance 1.0000000116860974e-07
+Node 291 has nearest distance 0.005524271633476019
+Node 307 has nearest distance 0.014084184542298317
+Node 644 has nearest distance 1.0000000116860974e-07
+Node 68 has nearest distance 0.011048543266952038
+Node 169 has nearest distance 0.009568319655954838
+Node 661 has nearest distance 0.028168369084596634
+Node 102 has nearest distance 1.0000000116860974e-07
+Node 451 has nearest distance 1.0000000116860974e-07
+Node 835 has nearest distance 1.0000000116860974e-07
+Node 2 has nearest distance 1.0000000116860974e-07
+Node 660 has nearest distance 0.009568319655954838
+Node 101 has nearest distance 1.0000000116860974e-07
+Node 105 has nearest distance 0.015625
+Node 130 has nearest distance 0.01461584959179163
+Node 132 has nearest distance 1.0000000116860974e-07
+Node 156 has nearest distance 0.00390625
+Node 393 has nearest distance 0.01461584959179163
+Node 836 has nearest distance 1.0000000116860974e-07
+Node 109 has nearest distance 0.014084184542298317
+Node 308 has nearest distance 1.0000000116860974e-07
+Node 837 has nearest distance 0.00390625
+Node 770 has nearest distance 1.0000000116860974e-07
+Node 659 has nearest distance 0.005524271633476019
+Node 818 has nearest distance 0.00390625
+Node 100 has nearest distance 1.0000000116860974e-07
+Node 802 has nearest distance 0.00390625
+Node 452 has nearest distance 0.008734640665352345
+Node 309 has nearest distance 0.017900686711072922
+Node 643 has nearest distance 1.0000000116860974e-07
+Node 677 has nearest distance 1.0000000116860974e-07
+Node 676 has nearest distance 0.016105880960822105
+Node 3 has nearest distance 1.0000000116860974e-07
+Node 99 has nearest distance 0.005524271633476019
+Node 133 has nearest distance 1.0000000116860974e-07
+Node 453 has nearest distance 0.024079741910099983
+Node 292 has nearest distance 0.015625
+Node 404 has nearest distance 0.012352647259831429
+Node 300 has nearest distance 0.012352647259831429
+Node 386 has nearest distance 0.009568319655954838
+Node 803 has nearest distance 0.01746928133070469
+Node 418 has nearest distance 0.015128841623663902
+Node 142 has nearest distance 1.0000000116860974e-07
+Node 675 has nearest distance 1.0000000116860974e-07
+Node 141 has nearest distance 1.0000000116860974e-07
+Node 134 has nearest distance 0.006765823345631361
+Node 804 has nearest distance 1.0000000116860974e-07
+Node 150 has nearest distance 0.005524271633476019
+Node 149 has nearest distance 1.0000000116860974e-07
+Node 805 has nearest distance 1.0000000116860974e-07
+Node 135 has nearest distance 0.009568319655954838
+Node 293 has nearest distance 1.0000000116860974e-07
+Node 771 has nearest distance 0.005524271633476019
+Node 297 has nearest distance 0.005524271633476019
+Node 787 has nearest distance 0.009568319655954838
+Node 148 has nearest distance 0.0078125
+Node 294 has nearest distance 0.027896204963326454
+Node 67 has nearest distance 1.0000000116860974e-07
+Node 166 has nearest distance 1.0000000116860974e-07
+Node 115 has nearest distance 0.02174907922744751
+Node 165 has nearest distance 1.0000000116860974e-07
+Node 788 has nearest distance 0.011048543266952038
+Node 706 has nearest distance 1.0000000116860974e-07
+Node 260 has nearest distance 0.005524271633476019
+Node 674 has nearest distance 0.024705294519662857
+Node 690 has nearest distance 0.021035799756646156
+Node 164 has nearest distance 1.0000000116860974e-07
+Node 390 has nearest distance 0.008734640665352345
+Node 642 has nearest distance 1.0000000116860974e-07
+Node 789 has nearest distance 1.0000000116860974e-07
+Node 116 has nearest distance 0.011048543266952038
+Node 707 has nearest distance 0.018733717501163483
+Node 709 has nearest distance 0.005524271633476019
+Node 772 has nearest distance 1.0000000116860974e-07
+Node 419 has nearest distance 0.012352647259831429
+Node 548 has nearest distance 1.0000000116860974e-07
+Node 780 has nearest distance 1.0000000116860974e-07
+Node 117 has nearest distance 1.0000000116860974e-07
+Node 708 has nearest distance 0.024705294519662857
+Node 163 has nearest distance 1.0000000116860974e-07
+Node 258 has nearest distance 1.0000000116860974e-07
+Node 108 has nearest distance 0.009568319655954838
+Node 781 has nearest distance 0.013531646691262722
+Node 773 has nearest distance 0.0078125
+Euclidean distances from latent prototypes in tree to nearest image patch: [1.0000000116860974e-07, 0.01171875, 0.00390625, 0.009568319655954838, 1.0000000116860974e-07, 0.06513020396232605, 1.0000000116860974e-07, 0.027203883975744247, 0.02455040067434311, 0.011048543266952038, 0.01171875, 0.006765823345631361, 0.009568319655954838, 0.006765823345631361, 0.01746928133070469, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.005524271633476019, 0.01171875, 1.0000000116860974e-07, 0.005524271633476019, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.005524271633476019, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.05327414721250534, 0.00390625, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.005524271633476019, 0.005524271633476019, 0.006765823345631361, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.017026949673891068, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.005524271633476019, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.009568319655954838, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.00390625, 0.01461584959179163, 0.03221176192164421, 0.009568319655954838, 0.04059493914246559, 1.0000000116860974e-07, 0.02174907922744751, 0.00390625, 0.009568319655954838, 1.0000000116860974e-07, 0.005524271633476019, 0.0398360900580883, 1.0000000116860974e-07, 0.01657281443476677, 0.00390625, 0.006765823345631361, 0.00390625, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.009568319655954838, 1.0000000116860974e-07, 0.015128841623663902, 1.0000000116860974e-07, 0.011048543266952038, 0.00390625, 1.0000000116860974e-07, 0.021035799756646156, 0.005524271633476019, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.0234375, 0.005524271633476019, 1.0000000116860974e-07, 0.01991804502904415, 1.0000000116860974e-07, 0.005524271633476019, 0.015128841623663902, 0.006765823345631361, 1.0000000116860974e-07, 0.0078125, 0.015625, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.018733717501163483, 0.011048543266952038, 0.034053899347782135, 1.0000000116860974e-07, 0.014084184542298317, 1.0000000116860974e-07, 0.01461584959179163, 1.0000000116860974e-07, 0.008734640665352345, 0.018321936950087547, 1.0000000116860974e-07, 0.011048543266952038, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.006765823345631361, 1.0000000116860974e-07, 0.01171875, 0.011048543266952038, 1.0000000116860974e-07, 0.01171875, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.00390625, 0.015625, 0.011048543266952038, 0.005524271633476019, 0.005524271633476019, 0.00390625, 0.005524271633476019, 0.00390625, 1.0000000116860974e-07, 0.005524271633476019, 0.014084184542298317, 1.0000000116860974e-07, 0.011048543266952038, 0.009568319655954838, 0.028168369084596634, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.009568319655954838, 1.0000000116860974e-07, 0.015625, 0.01461584959179163, 1.0000000116860974e-07, 0.00390625, 0.01461584959179163, 1.0000000116860974e-07, 0.014084184542298317, 1.0000000116860974e-07, 0.00390625, 1.0000000116860974e-07, 0.005524271633476019, 0.00390625, 1.0000000116860974e-07, 0.00390625, 0.008734640665352345, 0.017900686711072922, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.016105880960822105, 1.0000000116860974e-07, 0.005524271633476019, 1.0000000116860974e-07, 0.024079741910099983, 0.015625, 0.012352647259831429, 0.012352647259831429, 0.009568319655954838, 0.01746928133070469, 0.015128841623663902, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.006765823345631361, 1.0000000116860974e-07, 0.005524271633476019, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.009568319655954838, 1.0000000116860974e-07, 0.005524271633476019, 0.005524271633476019, 0.009568319655954838, 0.0078125, 0.027896204963326454, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.02174907922744751, 1.0000000116860974e-07, 0.011048543266952038, 1.0000000116860974e-07, 0.005524271633476019, 0.024705294519662857, 0.021035799756646156, 1.0000000116860974e-07, 0.008734640665352345, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.011048543266952038, 0.018733717501163483, 0.005524271633476019, 1.0000000116860974e-07, 0.012352647259831429, 1.0000000116860974e-07, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.024705294519662857, 1.0000000116860974e-07, 1.0000000116860974e-07, 0.009568319655954838, 0.013531646691262722, 0.0078125]
+Average Euclidean distance and standard deviation from latent prototype to nearest image patch: 0.007372214091405136, 0.009736038800182173
+
+Leafs with max > 0.01: 209
+Classes without leaf: 0
+Fraction changed pairs w.r.t previous epoch: 0.0
+Fraction changed leafs with max > threshold w.r.t previous epoch: 0.0
+Max values in softmax leaf distributions: 
+[0.42514851689338684, 0.4271664619445801, 0.42717620730400085, 0.42725175619125366, 0.8609499335289001, 0.9910305738449097, 0.9910682439804077, 0.9999994039535522, 0.9999996423721313, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+Epoch pruned_and_projected - Test accuracy with distributed routing: 0.7820158784949949
+
+Epoch pruned_and_projected - Test accuracy with sample_max routing: 0.7820158784949949
+Tree with deterministic routing. Average path length is 8.31325509147394 with std 1.0657081514962161
+Tree with deterministic routing. Longest path has length 9, shortest path has length 4
+
+Epoch pruned_and_projected - Test accuracy with greedy routing: 0.7739040386606835
+Tree with deterministic routing. Average path length is 8.324991370383154 with std 1.0579548308682625
+Tree with deterministic routing. Longest path has length 9, shortest path has length 4
+Fidelity between standard distributed routing and sample_max routing: 1.0
+Fidelity between standard distributed routing and greedy routing: 0.9641007939247498
+
+Calculating similarity maps (after projection)...
+
+Upsampling prototypes for visualization...
