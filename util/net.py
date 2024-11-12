@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from prototree.prototree import ProtoTree
 from util.log import Log
-from features.resnet_features import resnet18_features, resnet34_features, resnet50_features, resnet50_features_inat, resnet101_features, resnet152_features
+from prototree.resnet_features import resnet18_features, resnet34_features, resnet50_features, resnet50_features_inat, resnet101_features, resnet152_features
 
 base_architecture_to_features = {'resnet18': resnet18_features,
                                  'resnet34': resnet34_features,
