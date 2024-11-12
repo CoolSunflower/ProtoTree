@@ -7,12 +7,10 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from prototree.branch import Branch
-from prototree.leaf import Leaf
-from prototree.node import Node
-from util.func import min_pool2d
-
+from structure import Node, Branch, Leaf
+from util import *
 from util.l2conv import L2Conv2D
+from util.func import min_pool2d
 
 class ProtoTree(nn.Module):
 
